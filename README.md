@@ -45,10 +45,4 @@ You do not need to install any programming languages to use CodeSpace.
 
 ---
 
-##  Build Information (For Developers)
-To compile the professional asset yourself:
 
-1. **Requirements:** `pip install pywebview pyinstaller`
-2. **Build Command:**
-   ```bash
-   pyinstaller --noconsole --onefile --add-data "index.html;." main.py
